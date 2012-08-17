@@ -51,5 +51,5 @@ http://code.google.com/p/jsmart/
 
 ###语法使用说明
 * jSmart语法说明：http://code.google.com/p/jsmart/wiki
-*php smarty语法说明：http://smarty.net
+* php smarty语法说明：http://smarty.net
 
