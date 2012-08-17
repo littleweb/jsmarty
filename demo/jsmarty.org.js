@@ -1,5 +1,5 @@
 var http     = require("http"),
-    jsmarty  = require("./jsmarty.js"),
+    jsmarty  = require("jsmarty"),
     fs       = require("fs");
 
 http.createServer(function(req,res){

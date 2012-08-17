@@ -1,0 +1,19 @@
+{
+  "name": "jsmarty",
+  "version": "0.0.1",
+  "description": "a template engine that the syntax similar to php smarty!",
+  "main": "jsmarty.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/littleweb/jsmarty.git"
+  },
+  "keywords": [
+    "jsmarty",
+    "template"
+  ],
+  "author": {
+    "name": "libin zhang",
+    "email": "girlblank@gmail.com",
+    "url": "http://xiaoweb.org"
+  }
+}

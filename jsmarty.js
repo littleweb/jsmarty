@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /*
  jSmart Javascript template engine
  http://code.google.com/p/jsmart/
@@ -3377,6 +3378,6 @@ jSmart.prototype.registerPlugin(
 );
 
 //输出对外渲染接口
-exports.render = function(tpl, data){
-	return (new jSmart(tpl)).fetch(data)
+module.exports.render = function(tpl, data){
+	return (new jSmart(tpl)).fetch(data);
 }
