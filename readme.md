@@ -8,10 +8,17 @@ jSmarty是一款js模板解析引擎，语法仿照PHP的smarty，达到99%相�
 
 ##使用方法
 
-```javascript
-var jsmarty  = require("jsmarty");
+###安装jSmarty包
 
-   var data = {
+```javascript
+npm install jsmarty
+```
+
+###使用demo
+```javascript
+	var jsmarty  = require("jsmarty");
+
+	var data = {
        title: '书籍列表',
        books: [
           {
@@ -35,5 +42,12 @@ var jsmarty  = require("jsmarty");
         res.write(jsmarty.render(tpl, data));
         res.end();
     });
-	
 ```
+
+###jsmart源码地址
+http://code.google.com/p/jsmart/
+
+###语法使用说明
+jSmart语法说明：http://code.google.com/p/jsmart/wiki
+php smarty语法说明：http://smarty.net
+
